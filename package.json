@@ -1,0 +1,25 @@
+{
+  "name": "readline-chunk",
+  "version": "1.0.0",
+  "description": "读取一次数据以换行结尾",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctoberCity/readline-chunk.git"
+  },
+  "keywords": [
+    "readline"
+  ],
+  "author": "OctoberCity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OctoberCity/readline-chunk/issues"
+  },
+  "homepage": "https://github.com/OctoberCity/readline-chunk#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  }
+}
