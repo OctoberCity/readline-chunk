@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-12 10:53:10
- * @LastEditTime: 2020-05-12 18:19:31
+ * @LastEditTime: 2020-05-13 11:30:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \readline-chunk\README.md
  -->
 # readline-chunk
-读取文件块，返回以换行为单位的buffer数组。
+读取文件块，返回以换行为单位的buffer数组。此包的目的是读取完整具有换行结尾的数据，不读最后一行非换行数据。
 
 
 install 
@@ -27,7 +27,7 @@ new linechunk(fd,[option])
 
 * `fd` - 文件描述符
 * `option` 
-   * `chunkSize` - 一次pop读取的文件二进制流  default:1024
+   * `chunkSize` - 一次pop读取的文件二进制流大小  default:1024
    * `beginPosition` - readfile begin position 
 
 ----------------
