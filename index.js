@@ -1,7 +1,7 @@
 /*
  * @Author: OctoberCity
  * @Date: 2020-05-08 14:49:16
- * @LastEditTime: 2020-05-12 17:57:35
+ * @LastEditTime: 2020-05-13 11:24:26
  * @LastEditors: Please set LastEditors
  * @Description: 提供读取文件返回文件buffer数组，以及position
  */
@@ -78,7 +78,7 @@ class readlineChunk {
     close() {
         fs.closeSync(this.fd);
         this.fd = null;
-        this.clear();
+        this._clear();
     }
     /**
      * @description: 清除缓存bufferarray 。
